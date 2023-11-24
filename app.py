@@ -12,6 +12,8 @@ Original file is located at
 import streamlit as st
 from nltk import ngrams
 from nltk.tokenize import word_tokenize
+nltk.download('punkt')
+
 
 # Download NLTK data (if not already downloaded)
 # Uncomment the line below if needed
